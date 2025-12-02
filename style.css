@@ -414,13 +414,26 @@ button {
     left: 0;
 }
 
-.product-card:hover .product-img-primary {
-    opacity: 0;
+@media (hover: hover) and (pointer: fine) {
+    .product-card:hover .product-img-primary {
+        opacity: 0;
+    }
+
+    .product-card:hover .product-img-secondary {
+        opacity: 1;
+    }
 }
 
-.product-card:hover .product-img-secondary {
-    opacity: 1;
+@media (hover: none) and (pointer: coarse) {
+    .product-img-primary {
+        opacity: 1 !important;
+    }
+
+    .product-img-secondary {
+        opacity: 0 !important;
+    }
 }
+
 
 .product-info {
     padding: 1.5rem;
