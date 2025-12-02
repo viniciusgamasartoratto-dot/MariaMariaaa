@@ -77,7 +77,7 @@ function handleBuyClick(button) {
     // window.open('https://wa.me/5511999999999?text=Olá! Gostaria de comprar um biquíni Maria Mariaaa', '_blank');
     
     // Exemplo: Mostrar alerta
-    showNotification('Redirecionando para a loja...', 'success');
+    //showNotification('Redirecionando para a loja...', 'success');
     
     // Remova a linha abaixo e adicione sua lógica real
     //setTimeout(() => {
