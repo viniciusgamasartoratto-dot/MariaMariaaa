@@ -80,9 +80,9 @@ function handleBuyClick(button) {
     showNotification('Redirecionando para a loja...', 'success');
     
     // Remova a linha abaixo e adicione sua lógica real
-    setTimeout(() => {
-        alert('Conecte este botão ao seu e-commerce ou WhatsApp');
-    }, 500);
+    //setTimeout(() => {
+    //    alert('Conecte este botão ao seu e-commerce ou WhatsApp');
+   // }, 500);
 }
 
 // Função para lidar com clique em "Ver Detalhes"
